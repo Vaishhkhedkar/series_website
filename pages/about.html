@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-Us</title>
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+        
+</head>
+
+<body id="nyts">
+    <header class="header" id="head">
+        <img src="https://cdn-ilaijbf.nitrocdn.com/YzeYmKigJpOUmEDUPOsqjcZLGXECGjCN/assets/images/optimized/rev-fee2c83/www.foodfood.com/wp-content/uploads/2024/04/header-logo.png"
+            class="logo">
+            <nav class="nav-bar">
+                <ul class="navbar-list">
+                    <li><a class="links"  href="../index.html">HOME</a></li>
+                    <li><a class="links"  href="./about.html">ABOUT</a></li>
+                    <li><a class="links" href="./login.html" >LOGIN</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-nav">
+                <ion-icon name="menu-outline"  class="mob-i M" id="menu" onclick="menu(1)"></ion-icon>
+                <ion-icon name="close-outline" class="mob-i x" id="close" onclick="menu(2)"></ion-icon>
+            </div>
+    </header>
+    <div class="container" id="about">
+
+        <div class="img-main">
+            <div class="intro">
+                <h1 class="about">About-Us</h1>
+                <p class="intro-name"><span class="red"> The </span> series_website</p>
+                <p class="hiis"> A group of programs created or adapted for television broadcast with a common series title</p>
+            </div>
+            <div class="img-big">
+                <img src="../img/arrowR.png" alt="v" class="btn-r" onclick="prev()">
+                <img src="../img/8.jpg" alt="img" id="main-img" class="main-img">
+                <img src="../img/arrowL.png" alt="v" class="btn-r" onclick="next()">
+            </div>
+            <div class="img-sm " id="img-sm">
+                <img id="sms" class="sms dec" src="../img/7.jpg" alt="img" onclick="imgchanger(1)">
+                <img id="sms" class="sms" src="../img/2.jpg" alt="img" onclick="imgchanger(2)">
+                <img id="sms" class="sms" src="../img/5.jpg" alt="img" onclick="imgchanger(3)">
+                <img id="sms" class="sms" src="../img/4.jpg" alt="img" onclick="imgchanger(4)">
+                <img id="sms" class="sms" src="../img/1.jpg" alt="img" onclick="imgchanger(5)">
+            </div>
+        </div>
+        <div class="info-story" id="storyx">
+            <p> <span class="red"> G</span>eneral correspondence of President Edmund J. James including correspondence, reports,
+                
+                 publications and files received from or sent to trustees, deans, other university administrators,faculty and the public concerning admissions policies 
+                 and enrollment statistics;  financial reports; reports of colleges, schools and departments;
+                    public relations; Chicago professional departments; relations with trustees and deans; 
+                    state departments and federal agencies; relations with Illinois high schools; 
+            </p>
+            <p>
+                Nestled in the heart of Pune, series website is a culinary haven born from a passion
+                 Our journey began in <span class="red">1980</span> when Rachel
+                Goenka,<span id="dis"> a seasoned chef with a love for Cuisine , dreamt of creating a space where guests
+                    could savor the rich tapestry of india's culinary heritage.</span>
+            </p>
+
+        </div>
+        <div class="btn-container">
+            <p class="dec">Try our famous series at mobile</p>
+            <div class="btn-box" id="btn-box">
+                <button class="key"  onclick="output(1)">panchayat</button>
+                <button class="key" onclick="output(2)">mirzapur</button>
+                <button class="key" onclick="output(3)">family man</button>
+                <button class="key" onclick="output(4)">stranger things</button>
+            </div>
+            <div class="op" id="op">
+                Your favorite TV drama that comes on week after week is a series. Each episode is one in a series of many. If you make one mistake after another as you try to make dinner,
+                 you could say that the meal arrived on the table despite a series of culinary mishaps.
+
+            </div>
+            <div class="footer-continer">
+                <div class="footer-info">
+                    <img src="../img/logo0.jpg"  class="footer-logo">
+                  <p>The World Series consists of a series of seven games between the champions of the National and American Baseball Leagues. A series is a group of similar things happening one after the other.</p>
+                  <div class="footer-social">
+                 <a href="https://www.facebook.com/harsh.meshram.5891?mibextid=ZbWKwL"> <img src="../img/facebook.png" alt="" class="footer-icon">     </a>
+                 <a href="https://www.instagram.com/krushna.jagtap_96k/"> <img src="../img/instagram.png" alt=""  class="footer-icon">   </a>
+                 <a href="https://github.com/KrushnaX0X0"> <img src="../img/github logo.png" alt=""  class="footer-icon">   </a>
+                 <a href="https://www.youtube.com/results?search_query=chikenbriani+recipe"> <img src="../img/youtube logo.png" alt=""  class="footer-icon">   </a>
+                   </div>
+            
+            
+            
+                </div>
+                <div class="footer-time">
+                  <h1>Open Hours</h1>
+                  <p> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM15.5355 7.05025L16.9497 8.46447L12 13.4142L10.5858 12L15.5355 7.05025Z" ></path></svg>Mon-Thurs : 9am - 22pm</p>
+                  <p class="pag">  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM15.5355 7.05025L16.9497 8.46447L12 13.4142L10.5858 12L15.5355 7.05025Z" ></path></svg>  Fri-Sun : 11am - 22pm </p>
+            
+            
+                </div>
+            
+                <div class="footer-link">
+                  <h1>Link</h1>
+                  <ul class="footer-pages">
+                    <a class="links"  href="../index.html">HOME</a>
+                    <a class="links"  href="./about.html">ABOUT</a>
+                    <a class="links"  href="./login.html">LOGIN</a>
+                   
+                    
+                </ul>
+            
+                </div>
+            
+                <div class="footer-compani">
+                  <h1>Company</h1>
+                  <div class="company-taxt">
+                  <a href="../index.html">Terms & Conditions   </a>
+                  <a href="../index.html">Privacy Policy</a>
+                  <a href="../index.html">series Policy</a>
+            
+                  </div>
+            
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+    <script src="./../javascript/about.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="./../javascript/navbar&footer.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
