@@ -3,19 +3,19 @@ let mainImg = document.getElementById("main-img");
 function imgchanger(num) {
     switch (num) {
         case 1:
-            mainImg.src = "./../img/about-img/1.png";
+            mainImg.src = "../img/7.jpg";
             break;
         case 2:
-            mainImg.src = "./../img/about-img/3.png";
+            mainImg.src = "../img/2.jpg";
             break;
         case 3:
-            mainImg.src = "./../img/about-img/2.png";
+            mainImg.src = "../img/5.jpg";
             break;
         case 4:
-            mainImg.src = "./../img/about-img/4.png";
+            mainImg.src = "../img/4.jpg";
             break;
         case 5:
-            mainImg.src = "./../img/about-img/5.png";
+            mainImg.src = "../img/1.jpg";
             break;
         default:
             break;
@@ -112,9 +112,9 @@ function menu(hi) {
       imgsm.classList.remove("remove")
    }
 }
-const imgarry = ["./../img/about-img/1.png"
-    ,"./../img/about-img/2.png","./../img/about-img/3.png",
-    "./../img/about-img/4.png","./../img/about-img/5.png"]
+const imgarry = ["../img/7.jpg"
+    ,"../img/2.jpg","../img/5.jpg",
+    "../img/4.jpg","../img/1.jpg"]
     let imgindex = 0;
 function next(){
 
